@@ -5,7 +5,7 @@ function Footer(props) {
     <footer>
       <h3>What am I?</h3>
       <p>Refer to my props</p>
-      <p>These are my "props": {props.basic}</p>
+      <p>These are my "props": {props.footer}</p>
     </footer>
   )
 }

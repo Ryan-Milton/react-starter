@@ -7,15 +7,16 @@ class Main extends Component {
     super(props);
 
     this.state = {
-
+      header: 'I am a Header Component',
+      footer: 'I am a Footer Component',
     }
   }
 
   render() {
     return (
       <React.Fragment>
-        <Header basic="I am a Header Component"/>
-        <Footer basic="I am a Footer Component"/>
+        <Header header={this.state.header}/>
+        <Footer footer={this.state.footer}/>
       </React.Fragment>
     )
   }
